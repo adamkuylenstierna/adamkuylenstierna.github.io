@@ -1,0 +1,279 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
+.heading {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.body {
+  background-color: #000;
+}
+
+.text-block {
+  color: #fff;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.body-2 {
+  height: 100vh;
+}
+
+.background-video {
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+}
+
+.navbar {
+  position: relative;
+  background-color: transparent;
+}
+
+.nav-link {
+  font-family: 'Nb akademie std', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 500;
+}
+
+.section {
+  height: 100vh;
+}
+
+.section._2 {
+  display: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.section._3 {
+  background-color: #62c0ff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-color: transparent;
+}
+
+.heading-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-block {
+  width: 800px;
+  margin-top: 105px;
+  margin-left: 186px;
+  padding-top: 33px;
+}
+
+.div-block-2 {
+  width: 100%;
+}
+
+.heading-3 {
+  display: inline-block;
+  width: 100px;
+  margin-left: -79px;
+  padding-left: 0px;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  color: #fff;
+  font-size: 100px;
+  line-height: 60px;
+}
+
+.image {
+  background-color: transparent;
+}
+
+.main-text {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-color: transparent;
+  font-family: 'Nb akademie std', sans-serif;
+  color: #fff4e1;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  padding-right: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 25, 25, 0.06)), to(rgba(29, 25, 25, 0.06)));
+  background-image: linear-gradient(180deg, rgba(29, 25, 25, 0.06), rgba(29, 25, 25, 0.06));
+}
+
+.grid {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+}
+
+.text-block-3 {
+  font-family: 'Nb akademie std', sans-serif;
+  color: #f1f1e4;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.div-block-5 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  float: none;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.div-block-6 {
+  position: fixed;
+  z-index: 0;
+  height: 100vh;
+  background-color: #1573b3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.background-video-2 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  height: 100vh;
+}
+
+@media screen and (max-width: 479px) {
+  .main-text {
+    font-size: 30px;
+    line-height: 25px;
+  }
+
+  .text-block-3 {
+    padding: 10px;
+  }
+
+  .bold-text {
+    font-size: 18px;
+  }
+
+  .heading-4 {
+    padding-left: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@font-face {
+  font-family: 'Nb akademie std';
+  src: url('../fonts/NB-Akademie-Std-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nb akademie std';
+  src: url('../fonts/NB-Akademie-Std-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
