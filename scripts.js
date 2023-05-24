@@ -48,7 +48,7 @@ function addTweet() {
     // Load the next tweet if there are more
     tweetIndex++;
     if(tweetIndex < preloadedImages.length) {
-        setTimeout(addTweet, 6000);
+        setTimeout(addTweet, 5000);
     }
 }
 
