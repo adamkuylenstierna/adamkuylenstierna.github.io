@@ -45,11 +45,11 @@ function addTweet() {
         tweetImage.style.transform = 'translateY(0%)';
     }, 100);
     
-    // Load the next tweet if there are more
-    tweetIndex++;
-    if(tweetIndex < preloadedImages.length) {
-        setTimeout(addTweet, 5000);
-    }
+    // Load the next tweet randomly
+    tweetIndex = Math.floor(Math.random() * preloadedImages.length);
+    
+    // Load the next tweet after a delay
+    setTimeout(addTweet, 5000);
 }
 
 // Preload all images and then start adding tweets
